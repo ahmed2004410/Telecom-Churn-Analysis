@@ -9,46 +9,38 @@ This project provides an in-depth analysis of **customer churn behavior** to ide
 
 The analysis is powered by a robust **Data Pipeline** engineered using the **Medallion Architecture**, resulting in a highly optimized Star Schema. The final insights are presented through an interactive and comprehensive **Power BI Dashboard** containing five dedicated analytical pages.
 Data was modeled into a Star Schema and visualized through an interactive Power BI Dashboard containing five analytical pages.
+## 📂 Project Structure
 
-## Project Structure
-```
-Customer-Churn-Analysis/
+```text
+Telecom-Churn-Analysis/
 │
-├── data/
-│   ├── data_set/          
-│   │   │   └── Telco customer churn dataset.csv      # Source datasets used for analysis
-│   ├── Data Warehouse Documentation/                 # Documentations about the data warehouse
-│   ├── scripts/
-│   │   ├── ddl/                           # Contains SQL scripts for data warehouse schema definition
-│   │   │   └── DDL_Telecom_churn_whare_house.sql
-│   │   │
-│   │   ├── etl/                           # Contains transformation scripts after data modeling
-│   │   │   └── the Same data After modeling.sql
-│   │   │
-│   │   ├── bronze/                        # Raw data layer
-│   │   ├── silver/                        # Cleaned and transformed data
-│   │   └── gold/                          # Final analytical data
-|
-├── Analysis/
-│   ├── Telco_Churn_Dashboard.pbix         # Power BI dashboard files
-│   ├── DAX & Questions.pdf                # DAX measures and analytical questions
-│   ├── Business Scenario.pdf              # Business understanding and objectives
+├── dashboard/
+│   ├── Latest Version -Slicer Panel.pbix      # Main Power BI Dashboard file
+│   ├── DAX & Questions.pdf                    # DAX formulas and business questions
+│   ├── bg/                                    # Background images for dashboard
+│   └── icons/                                 # Icons used in dashboard
 │
-├── Presentation/
-│   ├── Final project presentation.pdf     # Final presentation slides reports
+├── Data Warehouse script/
+│   ├── DDL_Telecom_churn_whare_house.sql      # SQL script for Data Warehouse DDL
+│   ├── the Same data Aftre modiling.sql       # ETL & Modeling scripts
+│   ├── bronze/                                # Raw data layer folders
+│   ├── silver/                                # Transformation layer folders
+│   └── gold/                                  # Serving layer folders
 │
-├── visuals/
-│   ├── churn_analysis_page.png
-│   ├── customer_demographics_page.png
-│   ├── customer_segmentation_page.png 
-│   ├── home_page.png
-│   ├── overview_page.png 
-│   ├── service_usage_page.png
-|   ├── bg/
-│   ├── icons/
+├── data_set/
+│   └── new.csv                                # Raw dataset source file
+│
+├── docs/                                      # Project Diagrams & Architecture
+│   ├── data_architecture.png
+│   ├── Data_flow_diagram.drawio.png
+│   └── data_model.drawio.png
+│
+├── Persentation & Recomendation/              # Final presentations & Business insights
+│   ├── Final project presentation.pdf
+│   ├── Final_project_presentation 1.pptx
+│   └── recommendations.pptx
 │
 └── README.md
-```
 
 ## Project Files
 [Google Drive Folder](https://drive.google.com/drive/folders/1170s0DJj1R7SonS9M5dmE-gKqDE6HC62)
