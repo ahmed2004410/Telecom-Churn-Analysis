@@ -274,13 +274,8 @@ supervised by **Eng. Abdelrahman Ashour**.
 
 | Name | Role | Contribution |
 |------|------|---------------|
-| **Esraa Soliman Mubarak** | Data Analyst | Dashboard development, data analysis, insights extraction, and report design |
 | **Ahmed Anwer Fath** | Data Engineer | Data preparation, pipeline creation, and data warehouse design |
-| **Tasneem Shaaban Attia** | Presenter | Project presentation, storytelling, and communication of findings |
-| **Ibrahim Saeed Mohamed** | BI Developer | Dashboard implementation and Power BI visualizations |
-| **Muhannad Mahfouz Muhammad** | UI Designer | Dashboard layout, color theme, and visual consistency |
 
----
 
 ## ⚙️ Tools & Technologies Used
 
@@ -295,8 +290,6 @@ The project was developed using the following tools and technologies:
 | **Version Control** | Git & GitHub | Project hosting, versioning, and collaboration |
 
 ---
-
-**Supervisor:** Eng. Abdelrahman Ashour  
 **Program:** Digital Egypt Pioneers Initiative (DEPI) — *Data Analytics - Microsoft Power BI Specialest Track*
 
 
